@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-ydfe",
+  "version": "1.0.0",
+  "description": "ESLint Config for yunding fe team.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "yunding-fe"
+  ],
+  "author": "Yasuo",
+  "license": "MIT"
+}
