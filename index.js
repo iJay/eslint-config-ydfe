@@ -1,8 +1,20 @@
 const rules = require('./rules');
 
 module.exports = {
-  // 指定浏览器环境
-  'browser': true,
-  // 指定node运行环境
-  'node': true,
+  root: true,
+
+  browser: true,
+
+  node: true,
+
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true,
+      jsx: true
+    }
+  },
+  
+  rules
 }
