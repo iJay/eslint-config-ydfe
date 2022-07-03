@@ -145,5 +145,6 @@ module.exports = {
     'vars-on-top': 0, // 要求所有的 var 声明出现在它们所在的作用域顶部
     'wrap-iife': [2, 'any'], // 要求 IIFE 使用括号括起来
     'wrap-regex': 0, // 要求正则表达式被括号括起来
-    'yoda': [2, 'never'] // 要求或禁止 “Yoda” 条件
+    'yoda': [2, 'never'], // 要求或禁止 “Yoda” 条件
+    'no-global-assign': 2
   };
