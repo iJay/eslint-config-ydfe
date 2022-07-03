@@ -19,9 +19,5 @@
     "yunding-fe"
   ],
   "author": "Yasuo",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint-plugin-vue": "^9.1.1",
-    "vue-eslint-parser": "^9.0.3"
-  }
+  "license": "MIT"
 }
