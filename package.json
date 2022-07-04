@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/iJay/eslint-config-ydfe.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
